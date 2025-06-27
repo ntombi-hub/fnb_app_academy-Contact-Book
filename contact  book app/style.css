@@ -1,0 +1,116 @@
+/* Reset some defaults */
+body, h1, h2, h3, p, input, button, label, table {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #f9f4fc;
+    color: #4c0070;
+    padding: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #7f00b2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Forms */
+form {
+    background: #fff0ff;
+    border: 2px solid #e0b3ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(127, 0, 178, 0.1);
+}
+
+label {
+    font-weight: 500;
+    color: #5e3370;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #d1a8f0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Buttons */
+button {
+    background-color: #b266ff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9933ff;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff8ff;
+    border: 1px solid #e0b3ff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e6ccff;
+}
+
+th {
+    background-color: #e8d4ff;
+    color: #4c0070;
+}
+
+td img {
+    max-width: 60px;
+    border-radius: 8px;
+    border: 2px solid #dda0ff;
+}
+
+/* Modal */
+#editModal {
+    background: #fff6ff;
+    border: 2px solid #d9a3ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(127, 0, 178, 0.2);
+}
+
+/* Status messages */
+#status, #editStatus {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #7a00cc;
+    text-align: center;
+}
+
+/* Center main page buttons */
+#refresh, #addContact, #homeLink {
+    display: inline-block;
+    margin: 10px auto;
+}
